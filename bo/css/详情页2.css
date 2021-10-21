@@ -1,0 +1,300 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom: 1;
+}
+.le{
+	float: left;
+	line-height: 35px;
+	text-indent: 24px;
+	background: url(../img/home_icon.png)  no-repeat left center;
+}
+.fr{
+	float: right;
+	line-height: 35px;
+	
+}
+/*企鹅背景图片*/
+.qie{
+	text-indent: 24px;
+	background: url(../img/qq_icon.png) no-repeat left center;
+	padding-left:16px ;
+}
+/*可视区*/
+.center{
+	width: 1003px;
+	margin: 0 auto;
+}
+/*顶部区域*/
+.top{
+	width: 100%;
+	height: 35px;
+	background-color: black;
+	color: white;
+}
+/*导航栏*/
+.center img{
+	/*width: 177px;*/
+	/*margin:5px 0px;*/
+}
+.fr ul{
+	float: right;
+}
+.fr li{
+	float:left;
+	margin: 15px 0;
+	
+}
+#da{
+	border: none;
+}
+.fr>li>a{
+	color: black;
+	border-right: 1px  solid black ;
+	padding:0  10px ;
+}
+.fr>li>a:hover{
+	color: blue;
+	font-weight: bold;
+}
+/*banner*/
+.ke{
+	width: 100%;
+	/*溢出处理*/
+	overflow: hidden;
+}
+.banner{
+	position: relative;
+	margin-left:-960px ;
+	left: 50%;
+}
+
+/*行业动态*/
+.lf{
+	float: left;
+	margin-top:15px ;
+	width: 200px;
+	height: 1228px;
+}
+.blue{
+	font-weight: normal;
+	background-color: royalblue;
+	height: 56px;
+	padding: 10px;
+	color: white;
+}
+.blue>p{
+	text-align: center;
+}
+.blue>span{
+	font-size: 15px;
+	padding-left:11px ;
+}
+.lf ul{
+	text-align: center;
+}
+.lf li{
+	line-height: 54px;
+	border-bottom: 1px solid #666666;
+}
+#none{
+	border: none;
+}
+
+/*采集新闻*/
+.half{
+	width: 790px;
+	float: right;
+	margin-top:15px ;
+}
+.shang{
+	font-weight: normal;
+	border-bottom: 2px solid blue;
+	height: 30px;
+}
+.shang>p{
+	color: blue;
+	float: left;
+	display: inline;
+	line-height: 30px;
+}
+.shang>span{
+	float: right;
+	color: #666666;
+	font-size: 12px;
+	line-height: 30px;
+}
+.tf>h3{
+	text-align: center;
+	margin-bottom: 19px;
+	font-size: 24px;
+}
+.tf>span{
+	font-size: 14px;
+	padding-left:182px ;
+}
+.tf{
+	width: 790px;
+	margin: 31px 0 ;
+	height: 56px;
+	float: right;
+}
+.tf>p{
+	text-indent: 34px;
+	color: #666666;
+}
+.hui>p{
+	text-indent: 34px;
+	line-height: 30px;
+	margin-bottom:15px ;
+}
+.fx{
+	height: 31px;
+	background: url(../img/share.png) no-repeat 63px 0;
+	margin-bottom:23px ;
+}
+.fx>p{
+	line-height: 31px;
+}
+.l{
+	float: left;
+}
+.f{
+	float: right;
+}
+
+/*最满意*/
+.he{
+	text-align: center;
+	padding: 10px 0;
+	font-weight: normal;
+	font-size:25px ;
+}
+.you{
+	text-align: center;
+	border-bottom:1px solid #666666 ;
+	padding: 10px 0px;
+	font-weight: normal;
+	font-size:20px ;
+	
+}
+.bule{
+	width: 20px;
+	height: 10px;
+	background:blue;
+	position: relative;
+	margin: 0 auto;
+	top: -5px;
+}
+.slogan{
+	width: 100%;
+	/*溢出处理*/
+	overflow: hidden;
+	margin-top:-88px ;
+}
+.ku{
+	position: relative;
+	margin-left:-960px ;
+	left: 50%;
+	margin-top: 91px;
+}
+/*联系我们*/
+.footer{
+	/*height: 555px;
+	background: url(../img/footer_bg.png) no-repeat center center;
+	width: 100%;
+	/*溢出处理*/
+	/*overflow: hidden;*/
+	background: url(../img/footer_bg.png) no-repeat center center;
+}
+.xingfeng{
+	position: relative;
+}
+.xingfeng img{
+	margin: 50px 277px;
+}
+.xingfeng p{
+	position: absolute;
+	text-indent: 20px;
+	line-height: 30px;
+	top: 87px;
+	left: 350px;
+	width: 300px;
+	height: 210px;
+}
+.xingfeng ul{
+	position: absolute;
+	top: 405px;
+	left: 475px;
+}
+.xingfeng li{
+	line-height: 30px;
+}
+.Q{
+	list-style-image: url(../img/qq.png);
+}
+.D{
+	list-style-image: url(../img/tel.png);
+}
+.E{
+	list-style-image: url(../img/email.png);
+	
+}
+
+/*底部*/
+.ppp{
+	position: relative;
+}
+.b{
+	position: absolute;
+	margin-left:-960px ;
+	left: 50%;
+	top: -27px;
+}
+.pppp{
+	position: absolute;
+	width: 648px;
+	top: 73px;
+	left: 420px;
+}
+.logo{
+	position: absolute;
+	top: 66px;
+}
+.shu{
+	position: absolute;
+	right: 715px;
+	top: 60px;
+}
+#da{
+	border: none;
+}
+.pppp>li>a{
+	color:white;
+	border-right: 1px  solid white ;
+	padding:0  10px ;
+	float: left;
+}
+.all{
+	position: absolute;
+	top: 114px;
+	font-size: 13px;
+	color: white;
+	left: 432px;
+}
